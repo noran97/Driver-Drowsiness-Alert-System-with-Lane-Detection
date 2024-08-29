@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "AbdelRahman-Madboly",
+      "name": "AbdelRahman-Madboly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/148654460?v=4",
+      "profile": "https://github.com/AbdelRahman-Madboly",
+      "contributions": [
+        "infra"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "Driver-Drowsiness-Alert-System-with-Lane-Detection",
+  "projectOwner": "noran97"
+}
