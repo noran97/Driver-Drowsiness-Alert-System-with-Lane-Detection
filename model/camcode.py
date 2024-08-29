@@ -1,12 +1,12 @@
 import cv2
 import torch
-from ultralytics import YOLO
+from ultralytics import YOLO #Yolo Library
 
 # Load your trained YOLOv8 model
 model = YOLO('best.pt')
 
 # Start video capture from the webcam
-cap = cv2.VideoCapture(0)  # 0 is usually the default webcam, change if needed
+cap = cv2.VideoCapture(0)  # 0 is usually the default webcam, in case of using a phone camera with IP Webcam replace the "0" with your URL HTTP://<IP>:<Port>/Video 
 
 if not cap.isOpened():
     print("Error: Could not open webcam.")
