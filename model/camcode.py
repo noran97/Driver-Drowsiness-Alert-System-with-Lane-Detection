@@ -13,6 +13,7 @@ if not cap.isOpened():
     exit()
 
 # Initialize drowsy counter
+# start counting from moment it detects a drowsy driver before alerting him
 drowsy_counter = 0
 warning_threshold = 5
 
