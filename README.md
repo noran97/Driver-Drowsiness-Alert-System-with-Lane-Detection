@@ -26,7 +26,7 @@ Here're some of the project's best features:
 
 ## Contributors
 
-* **Mohamed Hazem** (@MohamedHazem1)
+
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
@@ -44,5 +44,4 @@ Here're some of the project's best features:
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
-* **Seif Ehab** (@Seifehab11-8)
-* **AbdelRahman Madboly** (@AbdelRahman-Madboly)
+
