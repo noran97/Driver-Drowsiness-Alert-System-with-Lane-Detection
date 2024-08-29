@@ -1,6 +1,6 @@
 import cv2
 import torch
-from ultralytics import YOLO #Yolo Library
+from ultralytics import YOLO #Import Yolo Library
 
 # Load your trained YOLOv8 model
 model = YOLO('best.pt')
@@ -12,7 +12,7 @@ if not cap.isOpened():
     print("Error: Could not open webcam.")
     exit()
 
-# Initialize drowsy counter
+# Initialize drowsy detection counter and threshold
 # start counting from moment it detects a drowsy driver before alerting him
 drowsy_counter = 0
 warning_threshold = 5
@@ -23,7 +23,7 @@ while True:
         print("Error: Failed to capture image")
         break
 
-    # YOLOv8 inference on the frame (no resizing for better accuracy)
+    # Perform YOLOv8 inference on the frame (maintaining original size for accuracy)
     results = model(frame)
 
     drowsy_detected = False  # Flag to check if drowsy state is detected in current frame
