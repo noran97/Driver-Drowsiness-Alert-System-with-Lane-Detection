@@ -20,3 +20,9 @@ Here're some of the project's best features:
 * data/ : Dataset and data preparation scripts 
 * models/ : YOLOv8 model and training scripts
 * lane\_detection/ : Lane detection algorithm implementation
+
+## Contributors
+
+* **Mohamed Hazem** (@MohamedHazem1)
+* **Seif Ehab** (@Seifehab11-8)
+* **AbdelRahman Madboly** (@AbdelRahman-Madboly)
